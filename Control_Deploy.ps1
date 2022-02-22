@@ -1,5 +1,5 @@
-$DownloadPath = "https://github.com/LesSolutionsOneSky/Control/blob/main/Control_Agent.msi"
-$SoftwarePath = "C:\Temp\Control_Agent.msi"
+$DownloadPath = "https://github.com/LesSolutionsOneSky/Control/blob/main/Control_Agent.exe"
+$SoftwarePath = "C:\Temp\Control_Agent.exe"
 
     Write-Host "Downloading from: $($DownloadPath)"
     Write-Host "Downloading to:   $($SoftwarePath)"
