@@ -7,4 +7,4 @@ $SoftwarePath = "C:\Temp\Control_Agent.exe"
         $WebClient.DownloadFile($DownloadPath, $SoftwarePath)
     Write-Host "Download Complete"
 
-Start-Process -FilePath $SoftwarePath -ArgumentList "/S /quiet /norestart" -Wait -Verb RunAs -PassThru
+Start-Process MSIEXEC.exe -ArgumentList "/I $SoftwarePath /quiet /qn /norestart" -Wait -Verb RunAs -PassThru
