@@ -1,4 +1,4 @@
-$DownloadPath = "https://screenconnect.aidepc.ca:4443/Bin/One-Sky.ClientSetup.exe?e=Access&y=Guest&c=a%20verifier&c=&c=&c=&c=&c=&c=&c="
+$DownloadPath = "https://github.com/LesSolutionsOneSky/Control/raw/main/Control_agent.exe"
 $SoftwarePath = "C:\Temp\Control_Agent.exe"
 
     Write-Host "Downloading from: $($DownloadPath)"
