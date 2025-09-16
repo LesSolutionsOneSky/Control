@@ -1,5 +1,5 @@
 $DownloadPath = "https://screenconnect.aidepc.ca:4443/Bin/ScreenConnect.ClientSetup.exe?e=Access&y=Guest&c=A%20Verifier&c=&c=&c=&c=&c=&c=&c="
-$SoftwarePath = "C:\Temp\Control_Agent.exe"
+$SoftwarePath = "C:\Temp\ScreenConnect.ClientSetup.exe"
 
     Write-Host "Downloading from: $($DownloadPath)"
     Write-Host "Downloading to:   $($SoftwarePath)"
