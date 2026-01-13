@@ -1,4 +1,4 @@
-$DownloadPath = "https://screenconnect.aidepc.ca:4443/Bin/ScreenConnect.ClientSetup.msi?e=Access&y=Guest&c=A%20Verifier&c=&c=&c=&c=&c=&c=&c="
+$DownloadPath = "https://raw.githubusercontent.com/LesSolutionsOneSky/Control/refs/heads/main/ScreenConnect.ClientSetup.msi"
 $SoftwarePath = "C:\Temp\ScreenConnect.ClientSetup.msi"
 
     Write-Host "Downloading from: $($DownloadPath)"
