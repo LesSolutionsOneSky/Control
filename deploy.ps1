@@ -1,7 +1,7 @@
 # -----------------------------
 # Configuration
 # -----------------------------
-$DownloadUrl  = "https://raw.githubusercontent.com/LesSolutionsOneSky/Control/main/ScreenConnect.ClientSetup.msi"
+$DownloadUrl  = "https://raw.githubusercontent.com/LesSolutionsOneSky/Control/refs/heads/main/ScreenConnect.ClientSetup.msi"
 $SoftwarePath = "C:\Temp\ScreenConnect.ClientSetup.msi"
 
 
